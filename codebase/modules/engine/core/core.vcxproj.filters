@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="debug">
+      <UniqueIdentifier>{2CA5490F-98B9-71C0-613B-1520CD0E6EF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ecs">
+      <UniqueIdentifier>{C06D880B-2C77-887C-B5F2-9E7C21FB937C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{36EF08BC-22BC-63C7-4BD5-516F37019955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{B54AA90F-215F-D1C0-EAE0-742056B4CDF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interfaces">
+      <UniqueIdentifier>{C9206369-B5D8-A4B6-1EE0-7D120AB73FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{4A63C33C-3630-1E48-5F49-0CF04B7553D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="time">
+      <UniqueIdentifier>{94789E7C-80AF-9F0D-299C-851015B21B0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows">
+      <UniqueIdentifier>{70CAFEC8-DCA9-7D64-E5C1-083B5120E4C5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\cdefs.h" />
+    <ClInclude Include="src\cpch.h" />
+    <ClInclude Include="src\debug\logger.h">
+      <Filter>debug</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ecs\ecs.h">
+      <Filter>ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ecs\entity.h">
+      <Filter>ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\DebugRenderer.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\TerrainRenderer.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\Keyboard.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\Mouse.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\interfaces\IExecutable.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\interfaces\IRenderer.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\interfaces\iEvent.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\interfaces\iGUIElement.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\interfaces\iInputSystem.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\interfaces\iRuntimeApp.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\time\clock.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="src\windows\window.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\windows\window_manager.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\debug\logger.cpp">
+      <Filter>debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\DebugRenderer.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\TerrainRenderer.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\Keyboard.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\Mouse.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\interfaces\iInputSystem.cpp">
+      <Filter>interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="src\interfaces\iRenderer.cpp">
+      <Filter>interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="src\platform\entry_win32.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\time\clock.cpp">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="src\windows\window.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\windows\window_manager.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

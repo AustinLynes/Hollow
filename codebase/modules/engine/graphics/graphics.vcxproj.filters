@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="interfaces">
+      <UniqueIdentifier>{C9206369-B5D8-A4B6-1EE0-7D120AB73FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{4A63C33C-3630-1E48-5F49-0CF04B7553D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\d3d12">
+      <UniqueIdentifier>{F7E1A8FD-E3AF-9C03-CC43-0D2AB8B07868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures">
+      <UniqueIdentifier>{69C1E221-5579-246F-BE80-FDCAAA57BF5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{43339F7C-2F6A-A00D-D856-8610C46C1C0F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\commands.h" />
+    <ClInclude Include="src\gfxdefs.h" />
+    <ClInclude Include="src\gfxpch.h" />
+    <ClInclude Include="src\interfaces\iapi.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\interfaces\isurface.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="src\platform\d3d12\api_d3d12.h">
+      <Filter>platform\d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="src\platform\d3d12\d3dutil.h">
+      <Filter>platform\d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="src\platform\d3d12\d3dx12.h">
+      <Filter>platform\d3d12</Filter>
+    </ClInclude>
+    <ClInclude Include="src\structures\vertices.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\Util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\commands.cpp" />
+    <ClCompile Include="src\platform\d3d12\api_d3d12.cpp">
+      <Filter>platform\d3d12</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Util.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

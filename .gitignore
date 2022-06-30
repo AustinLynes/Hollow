@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+/codebase/.vs/Hollow
+/codebase/release/windows
+*.sln
+/.vs
